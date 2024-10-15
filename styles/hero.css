@@ -113,6 +113,9 @@
     & img[src*="patins"] {
       z-index: 1;
 
+      width: 350px;
+      height: 400px;
+
       transform: translateX(200%);
       animation: slideIn 3s ease forwards;
     }
